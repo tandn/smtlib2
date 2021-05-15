@@ -12,7 +12,7 @@ Cabal-Version:  >=1.6
 
 Source-Repository head
   Type:         git
-  Location:     https://github.com/hguenther/smtlib2.git
+  Location:     https://github.com/tandn/smtlib2.git
 
 Library
   Build-Depends: base >= 4 && < 5, containers, mtl, dependent-sum, dependent-map, smtlib2 >= 1.0 && < 1.1, QuickCheck
