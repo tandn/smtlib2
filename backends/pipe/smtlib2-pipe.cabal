@@ -10,7 +10,7 @@ License-File:   LICENSE
 Build-Type:     Simple
 Cabal-Version:  >=1.8
 
-Source-Repository head
+Source-Repository master
   Type:         git
   Location:     https://github.com/tandn/smtlib2.git
 
