@@ -1,5 +1,5 @@
 Name:           smtlib2
-Version:        1.0
+Version:        1.1
 Author:         Henning Günther <guenther@forsyte.at>
 Maintainer:     guenther@forsyte.at
 Synopsis:       A type-safe interface to communicate with an SMT solver.
@@ -8,11 +8,11 @@ Category:       SMT, Formal Methods, Theorem Provers, Symbolic Computation
 License:        GPL-3
 License-File:   LICENSE
 Build-Type:     Simple
-Cabal-Version:  >=1.6
+Cabal-Version:  >=1.8
 Extra-Source-Files:
   README.org
 
-Source-Repository head
+Source-Repository master
   Type:         git
   Location:     https://github.com/tandn/smtlib2.git
 

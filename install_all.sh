@@ -2,7 +2,7 @@
 
 BACKENDS="z3 mathsat pipe debug timing"
 EXTRAS="emulated-modulus"
-INSTALL="cabal install --disable-documentation --force-reinstalls"
+INSTALL="cabal install --lib --disable-documentation --force-reinstalls"
 
 $INSTALL
 
