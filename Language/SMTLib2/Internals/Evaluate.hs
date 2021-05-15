@@ -7,6 +7,7 @@ import Language.SMTLib2.Internals.Type.Nat
 import Language.SMTLib2.Internals.Type.List
 import qualified Language.SMTLib2.Internals.Type.List as List
 
+import Data.Type.Equality
 import Data.GADT.Compare
 import Data.GADT.Show
 import Data.List (genericLength)

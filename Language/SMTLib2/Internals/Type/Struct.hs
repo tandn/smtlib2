@@ -8,6 +8,7 @@ import Prelude hiding (mapM,insert)
 import Data.GADT.Compare
 import Data.GADT.Show
 import Data.Functor.Identity
+import Data.Type.Equality
 
 data Tree a = Leaf a
             | Node [Tree a]

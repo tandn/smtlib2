@@ -6,6 +6,7 @@ import Prelude hiding (head,tail,length,mapM,insert,drop,take,last,reverse,map,t
 import Data.GADT.Compare
 import Data.GADT.Show
 import Language.Haskell.TH
+import Data.Type.Equality
 
 type family Head (lst :: [a]) :: a where
   Head (x ': xs) = x

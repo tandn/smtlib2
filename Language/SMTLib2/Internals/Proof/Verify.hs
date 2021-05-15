@@ -7,6 +7,7 @@ import Language.SMTLib2.Internals.Proof
 import Language.SMTLib2
 import qualified Language.SMTLib2.Internals.Expression as E
 
+import Data.Type.Equality
 import Data.GADT.Compare
 import Data.GADT.Show
 import Control.Monad.State

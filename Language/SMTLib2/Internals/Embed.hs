@@ -8,6 +8,7 @@ import Language.SMTLib2.Internals.Monad
 import Language.SMTLib2.Internals.Backend
 import Language.SMTLib2.Internals.Evaluate
 
+import Data.Type.Equality
 import Data.Functor.Identity
 import Control.Monad.State
 import Control.Monad.Except

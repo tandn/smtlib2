@@ -7,6 +7,7 @@ import Language.SMTLib2.Internals.Expression hiding (Map)
 import qualified Language.SMTLib2.Internals.Proof as P
 import Language.SMTLib2.Strategy
 
+import Data.Type.Equality
 import Data.Typeable
 import Data.GADT.Compare
 import Data.GADT.Show

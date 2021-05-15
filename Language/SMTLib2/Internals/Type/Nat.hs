@@ -5,6 +5,7 @@ import Data.Constraint
 import Data.GADT.Compare
 import Data.GADT.Show
 import Language.Haskell.TH
+import Data.Type.Equality
 
 -- | Natural numbers on the type-level.
 data Nat = Z | S Nat deriving Typeable
